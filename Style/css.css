@@ -1,0 +1,114 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    overflow: hidden;
+    background-color: dimgrey;
+    width: 100%;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: snow;
+    text-align: center;
+    padding: 1em;
+}
+
+li a:hover:not(.active) {
+    background-color: red;
+    text-decoration: none;
+}
+
+.green {
+    background-color: green;
+}
+.blue{
+    background-color: darkslateblue;
+}
+h1,h2,h3,h4{
+    color: darkblue;
+    font-size: 25px;
+    font-family: "Arial Narrow", serif;
+}
+body{
+    background-color: lavender;;
+}
+.History{
+    font-family: 'Oswald', sans-serif;
+    text-indent: 1em;
+    font-size: 20px;
+    text-align: justify;
+}
+.Emtymology {
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 20px;
+}
+.Balls{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 20px;
+}
+.button {
+    background-color: red;
+    border: none;
+    color: snow;
+    display: block;
+    font-size: 18px;
+}
+button{
+    background-color: black;
+    border: none;
+    display: block;
+}
+
+.DownBar{
+    background-color: gainsboro;
+    width: 100%;
+}
+.Down a:hover:not(.active){
+    background-color: black;
+}
+.right {
+    background-color: darkslateblue;
+    display: block;
+    float: right;
+    margin-top: 4em;
+
+}
+.h2Team{
+    color: red;
+    margin-top: 0;
+    text-align: center;
+}
+.liTeam{
+    color: seashell;
+    display: inline-block;
+    margin: 1em;
+    text-align: center;
+}
+.ulTeam{
+    background-color: darkslateblue;
+
+}
+.ulTeam a:hover:not(.active){
+    background-color: snow;
+}
+.Allh1Teams{
+    text-align: center;
+}
+.centre{
+    text-align: center;
+}
+p{
+    font-family: 'Oswald', sans-serif;
+    text-align: justify;
+    text-indent: 1em;
+    font-size: 20px;
+}
